@@ -1,0 +1,47 @@
+header{
+    padding: 30px;
+    height: 800px;
+    width: auto;
+    background-image:url(/assents/fundoHeader1.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272727;
+    grid-row-start: 1;
+    grid-column: 2/12;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin-right: 550px;
+}
+.menu{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.login{
+    background-color: #975237;
+    padding: 16px;
+    border-radius: 8px;
+}
+#logo__image{
+    height: auto;
+    width: 110px;
+}

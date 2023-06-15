@@ -1,0 +1,27 @@
+.sobre{
+    padding: 16px;
+    background-color: #272727;
+    width: auto;
+    height: 800px;
+    display: flex;
+}
+.sobre__image{
+    height: 400px;
+    width: 400px;
+}
+
+/* aside de informacoes*/
+.sobre__informacao{
+    width: 500vw;
+}
+
+
+
+/* aside de horarios*/
+.sobre__horario{
+    width: 1000vw;
+}
+.sobre__image{
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+:root{
+    --texto-logo-fonte: 'Kanit', sans-serif;
+    --texto: 'Work Sans';
+    --texto-color-marrom: #975237;
+}

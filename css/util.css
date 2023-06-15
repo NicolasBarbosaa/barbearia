@@ -1,0 +1,30 @@
+/* classes da header*/
+.titulo__logo{
+    font-family: var(--texto-logo-fonte);
+    font-size: 25px;
+}
+.titulo__navegacao{
+    font-family: var(--texto-logo-fonte);
+}
+/* classes do body*/
+.texto{
+    font-family: var(--texto);
+    color: white;
+}
+.subtitulo{
+    font-family: var(--texto);
+    font-size:20px ;
+    color: #9f9da0;
+}
+.titulo{
+    font-family: var(--texto);
+    font-size: 35px;
+    color: white;
+}
+.titulo_sub{
+    color: var(--texto-color-marrom);
+    font-size: 30px;
+}
+hr{
+    border-color:var(--texto-color-marrom);
+}
