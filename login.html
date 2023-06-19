@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="assents/logo.avif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css_login/header.css">
+    <link rel="stylesheet" href="css_login/formulario.css">
+    <link rel="stylesheet" href="css/variaveis.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/models.css">
+    <link rel="stylesheet" href="css/funcionarios.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <script defer src="js/fire-base-config.js"></script>
+    <script defer src="js/register.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="nav__cadastro">
+            <a href="index.html">
+                <ul class="logo">
+                    <li> <img id="logo__image" src="assents/logo.png" alt="Logo"></li>
+                    <li>
+                        <h1 class="titulo__logo"><span>La Barbería</span></h1>
+                    </li>
+                </ul>
+            </a>
+            <ul class="menu">
+                <li><a href="index.html"> HOME</a></li>
+                <li> <a class="login" href="cadastre-se.html"> CADASTRAR-SE</a></li>
+            </ul>
+        </nav>
+        <section class="area__formulario">
+
+            <img src="assents/logo.png" alt="">
+            <div class="area__formulario__quadrado">
+                <form action="">
+                    <h2 class="titulo__form texto"> Olá 👋, tudo bem?</h2>
+                    <p class="texto__form texto">Entre com o seu e-mail e senha em nosso sistema. </p>
+                    <label for="email" class="texto">Email:</label>
+                    <input id="email" type="email" placeholder="Email" required>
+                    <label for="password" class="texto">Senha:</label>
+                    <input id="password" type="password" placeholder="Senha" required>
+                    <a href="" class="esqueceu__senha">Esqueceu sua senha?</a>
+                    <button id="btnlogin">ENTRAR</button>
+                    <h1 class="animate__animated animate__bounceInLeft"></h1>
+                </form>
+            </div>
+    
+        </section>
+    </header>
+
+
+
+    
+</body>
+</html>

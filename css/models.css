@@ -1,0 +1,19 @@
+.models{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+.models__img{
+    display: flex;
+    gap: 24px;
+}
+.models__img__cortando{
+    width: auto;
+    height: 220px;
+    opacity:0.3 ;
+}
+.models__img__cortando:hover{
+    opacity: 1.0;
+}

@@ -28,3 +28,7 @@
 hr{
     border-color:var(--texto-color-marrom);
 }
+.titulo_hora{
+    color: var(--texto-color-marrom);
+    font-size: 35px;
+}

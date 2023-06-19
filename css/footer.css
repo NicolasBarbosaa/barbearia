@@ -1,0 +1,22 @@
+.rodape{
+    background-image: url(/assents/maquina.avif);
+    opacity: 0.5;
+    width: auto;
+    height: 700px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    padding: 30px;
+}
+.contatos__img{
+    width: auto;
+    height: 60px;
+}
+.contatos__agrupamento{
+    display: flex;
+    align-items: center;
+}
+.logo__footer{
+    width: 200px;
+    height: 120px;
+}

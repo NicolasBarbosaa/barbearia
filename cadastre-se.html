@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="assents/logo.avif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css_cadastro/header.css">
+    <link rel="stylesheet" href="css/variaveis.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/models.css">
+    <link rel="stylesheet" href="css/funcionarios.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="js/fire-base-config.js" defer></script>
+    <script src="js/register.js" defer></script>
+
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <ul class="logo">
+                    <li> <img id="logo__image" src="assents/logo.png" alt="Logo"></li>
+                    <li>
+                        <h1 class="titulo__logo"><span>La Barbearia</span></h1>
+                    </li>
+                </ul>
+            </a>
+            <ul class="menu">
+                <li><a href="index.html"> HOME</a></li>
+                <li> <a class="login" href="login.html"> LOGIN</a></li>
+            </ul>
+        </nav>
+
+        <section class="area">
+            <div class="area__cadastro">
+                <img class="imagem__cadastro" src="assents/logo.png" alt="imagem logo">
+    
+                
+                <form action="">
+                    <h2 class="titulo">Cadastre-se</h2>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Email" required>
+    
+                    <label for="password">Senha:</label>
+                    <input id="password" type="password" placeholder="Senha" required>
+    
+                    <label for="password">Confirme sua Senha:</label>
+                    <input id="confirmedPassword" type="password" placeholder="Senha" required>
+                    
+                    <div class="area__botoes">
+                        <button id="registerButton" class="area__botao">Efetuar Cadastro</button>
+                        <div>
+                            <h3 class="area__jaPossui">Já tem cadastro?</h3>
+                            <a class="texto" href="login.html">Faça seu login </a>
+                        </div>
+                    </div>
+                    <h1 class="animate__animated animate__bounceInLeft"></h1>
+                </form>
+            </div>
+        </section>
+    </header>
+
+   
+
+</body>
+</html>

@@ -1,13 +1,13 @@
 .sobre{
-    padding: 16px;
+    padding: 18px;
     background-color: #272727;
     width: auto;
-    height: 800px;
+    height: 450px;
     display: flex;
 }
 .sobre__image{
-    height: 400px;
-    width: 400px;
+    height: 330px;
+    width: 310px;
 }
 
 /* aside de informacoes*/
@@ -20,8 +20,14 @@
 /* aside de horarios*/
 .sobre__horario{
     width: 1000vw;
+    display: flex;
+    gap: 24px;
 }
 .sobre__image{
     padding: 10px;
     border-radius: 20px;
+}
+.formulario{
+    display: flex;
+    gap: 24px;
 }

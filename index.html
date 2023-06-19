@@ -2,18 +2,24 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="assents/logo.avif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/models.css">
+    <link rel="stylesheet" href="css/funcionarios.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/carrossel.css">
+    <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
+
+    <title>La Barbería</title>
 </head>
 
 <body>
@@ -22,7 +28,7 @@
             <ul class="logo">
                 <li> <img src="assents/logo.png" alt="logo" id="logo__image"></li>
                 <li>
-                    <h1 class="titulo__logo"> Barber Shop</h1>
+                    <h1 class="titulo__logo">La Barbería</h1>
                 </li>
             </ul>
             <ul class="menu">
@@ -30,11 +36,12 @@
                 <li class="titulo__navegacao"> <a href="#"> SERVIÇOS</a></li>
                 <li class="titulo__navegacao"><a href="#"> GALERIA</a></li>
                 <li class="titulo__navegacao"><a href="#"> CONTATO</a></li>
-                <li class="titulo__navegacao"> <a class="login" href="#"> LOGIN</a></li>
+                <li class="titulo__navegacao"> <a class="login" href="login.html"> LOGIN</a></li>
             </ul>
         </nav>
     </header>
     <section class="sobre">
+
         <aside class="sobre__informacao">
             <h2 class="titulo_sub">
                 Bem-vindo a nossa barbearia
@@ -52,29 +59,32 @@
         <aside class="sobre__horario">
             <img class="sobre__image" src="/assents/cortando1.jpg" alt="">
             <img class="sobre__image" src="/assents/cortando.jpg" alt="">
+
             <div class="sobre__horario__tabela">
                 <h1 class="titulo">
                     Work Times
                 </h1>
                 <hr class="linha">
                 <div class="formulario">
-                    <h2 class="titulo">
-                        MON
-                        <br>
-                        TUE
-                        <br>
-                        WED
-                        <br>
-                        THU
-                        <br>
-                        FRI
-                        <br>
-                        SAT
-                        <br>
-                        SUN
-                    </h2>
                     <aside>
-                        <h2 class="titulo_sub" id="hora">
+                        <h2 class="titulo">
+                            MON:
+                            <br>
+                            TUE:
+                            <br>
+                            WED:
+                            <br>
+                            THU:
+                            <br>
+                            FRI:
+                            <br>
+                            SAT:
+                            <br>
+                            SUN:
+                        </h2>
+                    </aside>
+                    <aside>
+                        <h2 class="titulo_hora" id="hora">
                             09:00 - 19:00
                             <br>
                             09:00 - 19:00
@@ -102,19 +112,75 @@
             HAIR CUTS MODELS
         </h1>
         <div class="models__img">
-            <img class="models__img__cortando" src="assents/modelo1.jpg" alt="">
-            <img class="models__img__cortando" src="assents/model2.png" alt="">
-            <img class="models__img__cortando" src="assents/model4.jpg" alt="">
-            <img class="models__img__cortando" src="assents/model3.jpg" alt="">
-            <img class="models__img__cortando" src="assents/model5.jpg" alt="">
+            <img class="models__img__cortando" src="assents/modelo1.png" alt="">
+            <img class="models__img__cortando" src="assents/modelo2.jpg" alt="">
+            <img class="models__img__cortando" src="assents/modelo3.jpg" alt="">
+            <img class="models__img__cortando" src="assents/modelo4.jpg" alt="">
+            <img class="models__img__cortando" src="assents/modelo5.jpg" alt="">
+
         </div>
     </section>
-    <footer class="rodape">
+    <section class="funcionarios">
+        <hgroup>
+            <h1 class="titulo">Our Barbers</h1>
+            <hr>
+        </hgroup>
+        <aside id="aside__funcionarios">
+            <div class="funcionarios__asides">
+                <img class="funcionarios__image" src="assents/barbeiro1.jpeg" alt="foto barbeiro">
+                <h2 class="titulo_sub">Barber</h2>
+                <h1 class="titulo">Jhon Silva</h1>
+                <h3 class="subtitulo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to make a type specimen book.</h3>
+            </div>
+            <div class="funcionarios__asides">
+                <img class="funcionarios__image" src="assents/barbeiro2.png" alt="foto barbeiro">
+                <h2 class="titulo_sub">Barber</h2>
+                <h1 class="titulo">Seu Elias</h1>
+                <h3 class="subtitulo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to make a type specimen book.</h3>
+            </div>
+            <div class="funcionarios__asides">
+                <img class="funcionarios__image" src="assents/barbeiro3.webp" alt="foto barbeiro">
+                <h2 class="titulo_sub">Barber</h2>
+                <h1 class="titulo">Diogo Silva</h1>
+                <h3 class="subtitulo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to make a type specimen book.</h3>
 
+            </div>
+        </aside>
+    </section>
+    <footer class="rodape">
+        <img class="logo__footer" src="assents/logo.png" alt="">
+
+        <div class="contatos">
+            <div class="contatos__agrupamento">
+                <img class="contatos__img" src="assents/insta.png" alt="">
+                <h1 class="texto">@la_barbearia</h1>
+            </div>
+            <div class="contatos__agrupamento">
+                <img class="contatos__img" src="assents/tt.png" alt="">
+                <h1 class="texto">@la_barbearia</h1>
+            </div>
+            <div class="contatos__agrupamento">
+                <img class="contatos__img" src="assents/whstsapp.png" alt="">
+                <h1 class="texto"> (11) 94002-8922</h1>
+            </div>
+        </div>
+        <div class="localizacao">
+            <h1 class="texto" style="color: white; font-size: 40px;">Endereço:</h1>
+            <h2 style="color: white; font-size: 35px;">Rua Nadir Ari Barroso, 1000</h2>
+        </div>
     </footer>
 
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
 
-<!--https://br.pinterest.com/pin/782359766508965104/-->

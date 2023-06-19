@@ -1,0 +1,30 @@
+.funcionarios {
+    background-color: var(--background-cinza);
+    width: auto;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+.funcionarios__asides{
+    height: 640px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+.funcionarios__image {
+    height: 430px;
+    width: 400px;
+}
+
+#aside__funcionarios{
+    display: flex;
+    gap: 40px;
+}
